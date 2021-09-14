@@ -1,0 +1,85 @@
+@font-face {
+  font-family: "Freight Display Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-display: auto;
+
+  src: url(freight_display_bold-1.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Brown";
+  font-style: normal;
+  font-weight: 100;
+  font-display: auto;
+
+  src: url(Brown-Thin.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Brown";
+  font-style: italic;
+  font-weight: 100;
+  font-display: auto;
+
+  src: url(Brown-ThinItalic.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Brown";
+  font-style: normal;
+  font-weight: 400;
+  font-display: auto;
+
+  src: url(Brown-Regular-1.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Brown";
+  font-style: italic;
+  font-weight: 400;
+  font-display: auto;
+
+  src: url(Brown-RegularItalic-1.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Brown";
+  font-style: normal;
+  font-weight: 300;
+  font-display: auto;
+  src: url(Brown-Light-1.woff2);
+}
+@font-face {
+  font-family: "Brown";
+  font-style: italic;
+  font-weight: 300;
+  font-display: auto;
+
+  src: url(Brown-LightItalic-1.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Brown";
+  font-style: normal;
+  font-weight: 700;
+  font-display: auto;
+  src: url(Brown-Bold-2.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Brown";
+  font-style: italic;
+  font-weight: 700;
+  font-display: auto;
+  src: url(Brown-BoldItalic-1.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Calluna Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: auto;
+
+  src: url(calluna_sans.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Selina W08 Calligraphic";
+  font-style: normal;
+  font-weight: 400;
+  font-display: auto;
+
+  src: url(selina_calligraphic.woff2) format("woff2");
+}

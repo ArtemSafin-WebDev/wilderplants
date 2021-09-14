@@ -426,6 +426,8 @@
           justify-content: flex-end;
   z-index: 1;
   -webkit-tap-highlight-color: transparent;
+  font-weight: 400;
+  text-decoration: none;
 }
 
 .plant-intro__tabs-nav-link.active::before {
@@ -577,6 +579,7 @@
   font-size: 30px;
   margin: 0;
   margin-bottom: 25px;
+  font-weight: 400;
 }
 
 @media only screen and (max-width: 640px) {
@@ -1233,6 +1236,7 @@
 .plant-info__wrapper em {
   font-family: "Selina W08 Calligraphic", sans-serif;
   font-style: normal;
+  font-weight: 400;
 }
 
 .plant-info__main-heading {
@@ -1278,7 +1282,7 @@
 @media only screen and (max-width: 640px) {
   .plant-info__subject {
     min-height: 80px;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-bottom: 30px;
   }
 }
@@ -1309,7 +1313,7 @@
 
 @media only screen and (max-width: 640px) {
   .plant-info__subject-icon {
-    width: 80px;
+    width: 70px;
   }
 }
 
@@ -1319,6 +1323,7 @@
   line-height: 110%;
   margin: 0;
   padding: 0;
+  font-weight: 400;
 }
 
 @media only screen and (max-width: 640px) {
