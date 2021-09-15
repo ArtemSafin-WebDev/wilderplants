@@ -1242,3 +1242,172 @@
     font-size: 17px;
   }
 }
+
+.plant-book {
+  margin-bottom: 80px;
+  padding: 50px 0;
+
+  background: linear-gradient(
+    90deg,
+    rgba(247, 148, 30, 0.15) 0%,
+    rgba(114, 198, 239, 0.15) 50%,
+    rgba(0, 166, 81, 0.15) 100%
+  );
+  color: black;
+  @include breakpoint(mobile) {
+    margin-bottom: 40px;
+  }
+}
+
+.plant-book__row {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: minmax(0, 450px) minmax(0, 1fr);
+  grid-gap: 40px;
+  align-items: center;
+
+  @include breakpoint(mobile) {
+    grid-template-columns: minmax(0, 1fr);
+    grid-gap: 30px;
+  }
+}
+
+.plant-book__image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.plant-book__heading {
+  font-family: "Freight Display Bold", Sans-serif;
+  font-size: 34px;
+  font-weight: 700;
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 44px;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 20px;
+
+  @include breakpoint(mobile) {
+    font-size: 32px;
+    line-height: 1.2em;
+  }
+}
+
+.plant-book__text {
+  font-family: "Brown", Sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 32px;
+  font-weight: 400;
+  margin-bottom: 20px;
+
+  @include breakpoint(mobile) {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+  p {
+    margin-bottom: 15px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.plant-book__forces {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin: 20px 0;
+
+  @include breakpoint(mobile) {
+    gap: 20px;
+  }
+  img {
+    width: 85px;
+    height: auto;
+    display: block;
+
+    @include breakpoint(mobile) {
+      width: 60px;
+    }
+  }
+}
+
+.plant-book__form {
+  background-color: #fff;
+  border: 1px solid black;
+  padding: 30px 60px;
+  text-align: center;
+  padding-top: 15px;
+
+  @include breakpoint(mobile) {
+    padding: 15px;
+  }
+}
+
+.plant-book__form-heading {
+  margin: 0;
+  font-family: "Brown", Sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 28px;
+  margin-bottom: 2px;
+
+  @include breakpoint(mobile) {
+    margin-bottom: 15px;
+  }
+}
+
+input.plant-book__form-input {
+  display: block;
+  width: 100%;
+  font-family: "Brown", Sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  border: none;
+  border-radius: 0;
+  outline: none;
+  appearance: none;
+  border-bottom: 1px solid black;
+  height: 45px;
+  margin-bottom: 25px;
+  padding: 0;
+
+  @include breakpoint(mobile) {
+    font-size: 18px;
+    line-height: 1.3;
+  }
+}
+
+.plant-book__form-submit {
+  border: none;
+  display: block;
+  text-align: center;
+  width: 100%;
+  font-family: "Calluna Sans", Sans-serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: white;
+  background-color: black;
+  padding: 10px 20px;
+  outline: none;
+  appearance: none;
+  text-transform: uppercase;
+  border-radius: 0;
+  transition: background-color 0.2s, color 0.2s;
+  &:hover {
+    background-color: rgb(243, 192, 147);
+    color: black;
+  }
+}
